@@ -1,0 +1,98 @@
+body{
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+    margin-top: 0.25in;
+}
+
+img{
+    margin-left: -0.15in;
+    width: 50%;
+}
+
+.sh{
+    font-family: 'Zodiak-Regular';
+    color: saddlebrown;
+    font-size: 1.25rem;
+    margin-bottom: -5px;
+}
+
+a{
+    font-family: 'Zodiak-Light';
+    font-size: 10pt;
+    color:darkolivegreen;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1px solid peru;
+    background: peru;
+    width: 100%;
+}
+
+h1{
+    color:saddlebrown;
+    font-family: 'Alpino-Black';
+    font-size: 2rem;
+}
+
+h2{
+    font-family: 'Zodiak-Bold';
+    font-size: 0.9rem;
+    color: saddlebrown;
+    margin-bottom: -10px;
+}
+
+h3{
+    font-family: 'Zodiak-Italic';
+    color: peru;
+    font-size: 0.9rem;
+}
+
+p{
+    font-family: 'Zodiak-Regular';
+    color: saddlebrown;
+    font-size: 0.75rem;
+}
+
+li{
+    font-family: 'Zodiak-italic';
+    color: peru;
+    font-size: 0.75rem;
+}
+
+.box{
+
+}
+
+
+
+
+
+
+
+
+
+@media print{
+
+/* body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* hr{
+    border: 0;
+    border-bottom: 2px dotted aqua;
+    background: aqua;
+    width: 50%;
+} */
+
+/* span{
+    float: right;
+} */
+
+
+
+a[href]::after{
+    content: " ➜ " attr(href)
+}
+
+}
